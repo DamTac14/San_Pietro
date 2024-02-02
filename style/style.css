@@ -342,8 +342,9 @@ footer {
     }
 
     .contact-info, .contact-info img {
+        margin: 0 auto;
         flex: 1;
-        max-width: 70%;
+        max-width: 80%;
     }
 
     .map {
@@ -356,7 +357,6 @@ footer {
 
     .contact-info p {
         padding: 10px;
-
     }
 
 }
