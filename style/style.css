@@ -315,23 +315,35 @@ footer {
         text-align: center;
     }
 
-    #accueil {
-        height: 400px;
+    nav ul {
+        margin-top: 10px;
     }
 
     nav a {
         font-size: 1em;
+        padding: 7px;
+    }
+
+    #accueil {
+        height: 400px;
     }
 
     h4 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     #carte li {
-        font-size: 0.6em;
+        font-size: 0.5em;
     }
 
-    
+    .service-item {
+        gap: 10%;
+    }
+
+    .service-grid {
+        padding: 20px;
+    }
+
     .contact-article {
         flex-direction: column; /* Retour à la direction en ligne pour un affichage horizontal */
     }
